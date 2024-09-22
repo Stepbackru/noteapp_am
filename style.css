@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+	padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+    padding: 20px;
+    width: 800px;
+    text-align: center;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.note__form {
+    margin-bottom: 20px;
+}
+
+.note__textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: calc(100% - 22px);
+    resize: vertical;
+}
+
+.btn {
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #5cb85c;
+}
+
+.btn:hover {
+    background-color: #4cae4c;
+}
+
+.note__load {
+	display: none;
+}
+
+.note__load_custom {
+    padding: 8px;
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+}
+
+.note__load_custom:hover {
+    background-color: #0056b3;
+}
+
+
+.note__list {
+    padding: 0;
+    list-style: none;
+}
+
+.note__item {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	gap: 10px;
+    background: #efefef;
+}
+
+.note__content {
+	width: 100%;
+}
+
+.note__date {
+	padding-bottom: 5px;
+	text-align: left;
+	border-bottom: 1px solid #9e5412;
+}
+
+.note__text {
+	padding-top: 10px;
+	word-break: break-all;
+	text-align: justify;
+}
+
+.note__delete {
+    padding: 5px;
+    color: #ffffff;
+    border: none;
+	border-radius: 5px;
+    cursor: pointer;
+    background: #d9534f;
+}
+
+.note__delete:hover {
+    background: #c9302c;
+}
